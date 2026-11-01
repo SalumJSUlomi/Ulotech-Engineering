@@ -41,3 +41,37 @@ var swiper = new Swiper('.home-slider', {
           prevEl: '.swiper-button-prev',
         },
       });
+    
+var swiper = new Swiper('.reviews-slider',{
+    loop: true,
+    grabCursor: true,
+    spaceBetween: 20,
+        breakpoints: {
+          640: {
+            slidesPerView: 1,
+          },
+          768: {
+            slidesPerView: 2,
+          },
+          991: {
+            slidesPerView: 3,
+          },
+        },
+      });
+
+      var swiper = new Swiper('.blogs-slider',{
+    loop: true,
+    grabCursor: true,
+    spaceBetween: 20,
+        breakpoints: {
+          640: {
+            slidesPerView: 1,
+          },
+          768: {
+            slidesPerView: 2,
+          },
+          991: {
+            slidesPerView: 3,
+          },
+        },
+      });
